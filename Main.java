@@ -18,7 +18,7 @@ public class Main {
 	}
 	
 	private static void tellCarAge(Car car,int currentYear) {
-		System.out.println("This " + car.getColor() + " " + car.getType().toLowerCase() + " " + car.getModel() + " is " 
+		System.out.println("This " + car.getColor() + " " + car.getModel() + " " + car.getType().toLowerCase() + " is " 
 				+ (currentYear - car.getYearMade()) + " years old.");
 	}
 	
