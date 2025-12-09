@@ -23,14 +23,13 @@ public abstract class Vehicle {
 	}
 	
 	public int getNumberOfWheels() {
-		return numberOfWheels;
+		return this.numberOfWheels;
 	}
 
 	public void setNumberOfWheels(int numberOfWheels) {
 		this.numberOfWheels = numberOfWheels;
 	}
 	public abstract void startEngine();
-	public abstract void refuel();
 	public void destroy() {
         System.out.print(this.getBrand() + " with " + this.numberOfWheels + " wheels has been destroyed.");
 	}

@@ -6,6 +6,10 @@ public class Truck extends Vehicle implements Refuelable {
 		this.setNumberOfWheels(numberOfWheels);
 	}
 	
+	public Truck () {
+		
+	}
+	
     @Override
     public void startEngine() {
     	System.out.println("Starting engine of the " + this.getNumberOfWheels() + " wheel truck " + getBrand() + ".");
