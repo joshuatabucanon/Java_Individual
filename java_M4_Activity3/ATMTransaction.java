@@ -12,7 +12,7 @@ public class ATMTransaction {
         checkBalance("200987654", 25000.00);
 
         System.out.println("--- Test Case 3: Invalid Account Number Format ---");	
-        checkBalance("ABC123", 15000.00);
+        checkBalance("ABC12345", 15000.00);
 
         System.out.println("--- Test Case 4: Empty Account Number ---");	
         checkBalance("", 15000.00);
@@ -54,4 +54,5 @@ public class ATMTransaction {
 
 	}
 }
+
 
