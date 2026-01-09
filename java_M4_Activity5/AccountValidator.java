@@ -34,10 +34,10 @@ public class AccountValidator {
         try {
         	System.out.println(testName + " (" + accountNumber + ")");
             validateAccountNumber(accountNumber);
-        } catch (InvalidAccountNumberException iane) {
-            System.out.println("Error: " + iane.getMessage());
-        } catch (InvalidAccountFormatException iafe) {
-            System.out.println("Warning: " + iafe.getMessage());
+        } catch (InvalidAccountNumberException e) {
+            System.out.println("Error: " + e.getMessage());
+        } catch (InvalidAccountFormatException e) {
+            System.out.println("Warning: " + e.getMessage());
         } catch (NullPointerException e) {
             System.out.println("Warning: " + e.getMessage());
         }
