@@ -1,0 +1,23 @@
+2026-01-13 20:37:51.363 [INFO] java_M4_Activity6.BankAccount - Deposit requested: ₱5000.0
+2026-01-13 20:37:51.368 [INFO] java_M4_Activity6.BankAccount - Deposit completed: ₱5000.0, New balance: ₱15000.0
+2026-01-13 20:37:51.369 [INFO] java_M4_Activity6.BankAccount - Withdrawal requested: ₱3000.0
+2026-01-13 20:37:51.370 [INFO] java_M4_Activity6.BankAccount - Withdrawal completed: ₱3000.0, New balance: ₱12000.0
+2026-01-13 20:37:51.371 [INFO] java_M4_Activity6.BankAccount - Deposit requested: ₱-500.0
+2026-01-13 20:37:51.371 [ERROR] java_M4_Activity6.BankAccount - Invalid deposit amount: ₱-500.0
+2026-01-13 20:37:51.371 [ERROR] java_M4_Activity6.BankAccount - Deposit failed: Deposit amount must be positive
+java_M4_Activity6.InvalidAmountException: Deposit amount must be positive
+	at java_M4_Activity6.BankAccount.deposit(BankAccount.java:47)
+	at java_M4_Activity6.BankAccount.lambda$2(BankAccount.java:18)
+	at java_M4_Activity6.BankAccount.runTest(BankAccount.java:61)
+	at java_M4_Activity6.BankAccount.main(BankAccount.java:18)
+2026-01-13 20:37:51.377 [INFO] java_M4_Activity6.BankAccount - Withdrawal requested: ₱20000.0
+2026-01-13 20:37:51.377 [WARN] java_M4_Activity6.BankAccount - Insufficient funds: ₱12000.0 available
+2026-01-13 20:37:51.377 [ERROR] java_M4_Activity6.BankAccount - Withdrawal failed: Insufficient funds for withdrawal
+java_M4_Activity6.InsufficientFundsException: Insufficient funds for withdrawal
+	at java_M4_Activity6.BankAccount.withdraw(BankAccount.java:33)
+	at java_M4_Activity6.BankAccount.lambda$3(BankAccount.java:19)
+	at java_M4_Activity6.BankAccount.runTest(BankAccount.java:61)
+	at java_M4_Activity6.BankAccount.main(BankAccount.java:19)
+2026-01-13 20:37:51.378 [INFO] java_M4_Activity6.BankAccount - Deposit requested: ₱60000.0
+2026-01-13 20:37:51.378 [WARN] java_M4_Activity6.BankAccount - Large deposit: ₱60000.0 - requires verification
+2026-01-13 20:37:51.378 [INFO] java_M4_Activity6.BankAccount - Deposit completed: ₱60000.0, New balance: ₱72000.0
