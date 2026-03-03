@@ -1,0 +1,6 @@
+ph\com\bpi\training\Movie.class
+ph\com\bpi\training\EntityManagerUtil.class
+ph\com\bpi\training\JsonUtil.class
+ph\com\bpi\training\Repository.class
+ph\com\bpi\training\Main.class
+ph\com\bpi\training\MovieRepository.class
