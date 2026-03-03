@@ -1,0 +1,56 @@
+REM M7_Activity2. #1 - #4 are curl commands for Windows. #5 is output.
+
+REM #1. Get Profile List.
+curl --request GET ^
+  --url http://localhost:4568/profiles
+
+REM #2. Create a profile using your name and group.
+curl --request POST ^
+  --url "http://localhost:4568/profiles" ^
+  --header "Content-Type: application/json" ^
+  --data "{ \"id\": 4, \"name\": \"Joshua Tabucanon\", \"group\": \"La Solidaridad\" }"
+  
+REM #3. Search a Profile and Edit it.
+REM (Edit the profile of Emilio Aguinaldo and update the name to Antonio Luna and the group name to Illustrados.)
+curl --request PUT ^
+  --url "http://localhost:4568/profiles?name=Emilio%20Aguinaldo" ^
+  --header "Content-Type: application/json" ^
+  --data "{ \"name\": \"Antonio Luna\", \"group\": \"Illustrados\" }"
+  
+REM #4. Delete a Profile via ID.
+REM (Delete the profile of Andres Bonifacio.)
+curl --request DELETE ^
+  --url http://localhost:4568/profiles/2
+  
+  
+REM #5. Below are all Output in Response in Bruno after sending requests #1 - #4.
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Jose Rizal",
+      "group": "Illustrados",
+      "apiCallsMade": null
+    },
+    {
+      "id": 3,
+      "name": "Antonio Luna",
+      "group": "Illustrados",
+      "apiCallsMade": null
+    },
+    {
+      "id": 4,
+      "name": "Joshua Tabucanon",
+      "group": "La Solidaridad",
+      "apiCallsMade": [
+        "GET: /profiles",
+        "POST: /profiles",
+        "PUT: /profiles",
+        "DELETE: /profiles"
+      ]
+    }
+  ],
+  "status": "Success"
+}
+
+
