@@ -1,0 +1,68 @@
+2026-02-24 14:03:33.859 [INFO] m5group6.project1.app.Main - 
+           M5_Group6_Project1 Library Application starting... 
+2026-02-24 14:03:33.979 [ERROR] m5group6.project1.app.Main - Database connection failed at startup. Check if database server and its service is running and that connections to it are allowed. Ensure also that DB configurations are correct
+m5group6.project1.exceptions.DataAccessException: Unable to obtain DB connection
+	at m5group6.project1.util.DBUtil.getConnection(DBUtil.java:26)
+	at m5group6.project1.app.Main.main(Main.java:19)
+Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:373)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:57)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:290)
+	at org.postgresql.Driver.makeConnection(Driver.java:448)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at m5group6.project1.util.DBUtil.getConnection(DBUtil.java:18)
+	... 1 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:261)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:122)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:146)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:289)
+	... 8 common frames omitted
+2026-02-24 14:51:21.448 [INFO] m5group6.project1.service.Library - Book added: id=1, title='Song of Ice and Fire', author='George R.R. Martin'
+2026-02-24 14:51:21.901 [INFO] m5group6.project1.service.Library - Book added: id=2, title='Harry Potter', author='J.K. Rowling'
+2026-02-24 14:51:22.333 [INFO] m5group6.project1.service.Library - Book added: id=3, title='The Fault in Our Stars', author='John Green'
+2026-02-24 14:51:22.775 [INFO] m5group6.project1.service.Library - Book added: id=4, title='Noli Me Tangere', author='Jose Rizal'
+2026-02-24 14:51:23.250 [INFO] m5group6.project1.service.Library - Book added: id=5, title='Clean Code', author='Robert C. Martin'
+2026-02-24 14:51:25.067 [INFO] m5group6.project1.service.Library - Loan created loanId=1, userId=1, bookId=2, title=Harry Potter
+2026-02-24 14:51:26.308 [WARN] m5group6.project1.service.Library - No row updated for book id=2. Possible concurrent change or unavailable state.
+2026-02-24 14:54:55.357 [INFO] m5group6.project1.service.Library - Book added: id=1, title='Song of Ice and Fire', author='George R.R. Martin'
+2026-02-24 14:54:55.799 [INFO] m5group6.project1.service.Library - Book added: id=2, title='Harry Potter', author='J.K. Rowling'
+2026-02-24 14:54:56.266 [INFO] m5group6.project1.service.Library - Book added: id=3, title='The Fault in Our Stars', author='John Green'
+2026-02-24 14:54:56.697 [INFO] m5group6.project1.service.Library - Book added: id=4, title='Noli Me Tangere', author='Jose Rizal'
+2026-02-24 14:54:57.196 [INFO] m5group6.project1.service.Library - Book added: id=5, title='Clean Code', author='Robert C. Martin'
+2026-02-24 14:54:59.085 [INFO] m5group6.project1.service.Library - Loan created loanId=1, userId=1, bookId=2, title=Harry Potter
+2026-02-24 14:55:00.472 [INFO] m5group6.project1.service.Library - Book updated id=1, title='Song of Ice and Fire (updated)', author='George R.R. Martin'
+2026-02-24 14:55:01.201 [INFO] m5group6.project1.service.Library - Loan closed. loanId=1, book='Harry Potter'
+2026-02-24 14:55:02.405 [INFO] m5group6.project1.service.Library - Book removed id=3, title='The Fault in Our Stars'
+2026-02-24 16:59:48.232 [INFO] m5group6.project1.service.Library - Book added: id=1, title='Song of Ice and Fire', author='George R.R. Martin'
+2026-02-24 16:59:48.690 [INFO] m5group6.project1.service.Library - Book added: id=2, title='Harry Potter', author='J.K. Rowling'
+2026-02-24 16:59:49.204 [INFO] m5group6.project1.service.Library - Book added: id=3, title='The Fault in Our Stars', author='John Green'
+2026-02-24 16:59:49.772 [INFO] m5group6.project1.service.Library - Book added: id=4, title='Noli Me Tangere', author='Jose Rizal'
+2026-02-24 16:59:50.285 [INFO] m5group6.project1.service.Library - Book added: id=5, title='Clean Code', author='Robert C. Martin'
+2026-02-24 16:59:52.296 [INFO] m5group6.project1.service.Library - Loan created loanId=1, userId=1, bookId=2, title=Harry Potter
+2026-02-24 16:59:53.810 [INFO] m5group6.project1.service.Library - Book updated id=1, title='Song of Ice and Fire (updated)', author='George R.R. Martin'
+2026-02-24 16:59:54.500 [INFO] m5group6.project1.service.Library - Loan closed. loanId=1, book='Harry Potter'
+2026-02-24 16:59:55.802 [INFO] m5group6.project1.service.Library - Book removed id=3, title='The Fault in Our Stars'
+2026-02-24 17:00:52.806 [INFO] m5group6.project1.app.Main - 
+           M5_Group6_Project1 Library Application starting... 
+2026-02-24 17:00:53.290 [INFO] m5group6.project1.app.Main - Database connected successfully. 
+2026-02-24 17:00:56.351 [INFO] m5group6.project1.app.LibraryApplication - User login initialized: name='JT', id=2
+2026-02-24 17:01:16.499 [INFO] m5group6.project1.app.Main - Application exited normally.
+2026-02-24 17:01:16.499 [INFO] m5group6.project1.app.Main - Main method finished execution. 
+2026-02-24 17:12:48.235 [INFO] m5group6.project1.service.Library - Book added: id=1, title='Song of Ice and Fire', author='George R.R. Martin'
+2026-02-24 17:12:48.703 [INFO] m5group6.project1.service.Library - Book added: id=2, title='Harry Potter', author='J.K. Rowling'
+2026-02-24 17:12:49.179 [INFO] m5group6.project1.service.Library - Book added: id=3, title='The Fault in Our Stars', author='John Green'
+2026-02-24 17:12:49.817 [INFO] m5group6.project1.service.Library - Book added: id=4, title='Noli Me Tangere', author='Jose Rizal'
+2026-02-24 17:12:50.285 [INFO] m5group6.project1.service.Library - Book added: id=5, title='Clean Code', author='Robert C. Martin'
+2026-02-24 17:12:52.394 [INFO] m5group6.project1.service.Library - Loan created loanId=1, userId=1, bookId=2, title=Harry Potter
+2026-02-24 17:12:53.987 [INFO] m5group6.project1.service.Library - Book updated id=1, title='Song of Ice and Fire (updated)', author='George R.R. Martin'
+2026-02-24 17:12:54.790 [INFO] m5group6.project1.service.Library - Loan closed. loanId=1, book='Harry Potter'
+2026-02-24 17:12:56.118 [INFO] m5group6.project1.service.Library - Book removed id=3, title='The Fault in Our Stars'
