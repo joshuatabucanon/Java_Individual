@@ -1,0 +1,73 @@
+
+package com.bpi.M8Activity7.controller;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.server.ResponseStatusException;
+
+import com.bpi.M8Activity7.dto.BookDTO;
+
+@RestController
+@RequestMapping("/api/books")
+public class BookController {
+
+    // Static list of 3 books
+	private static List<BookDTO> books = new ArrayList<>(Arrays.asList(
+            new BookDTO(1, "Avatar The Last Airbender: Book 1", "Nik O. Lodiyan"),
+            new BookDTO(2, "Avatar The Last Airbender: Book 2", "Nik O. Lodiyan"),
+            new BookDTO(3, "Avatar The Last Airbender: Book 3", "Nik O. Lodiyan")
+    ));
+
+    // 2) GET /api/books -> return all books
+    @GetMapping
+    public List<BookDTO> getAllBooks() {
+        return books;
+    }
+
+    @GetMapping("/{id}")
+    public BookDTO getBookById(@PathVariable Integer id) {
+        for (BookDTO book : books) {
+            if (book.getId().equals(id)) {
+                return book;
+            }
+        }
+        throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Book not found");
+    }
+    
+
+    @PostMapping
+    @ResponseStatus(HttpStatus.CREATED)
+    public BookDTO addBook(@RequestBody BookDTO dto) {
+        if (dto == null || dto.getId() == null) {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Id is required");
+        }
+        if (dto.getTitle() == null || dto.getTitle().trim().isEmpty()) {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Title is required");
+        }
+        if (dto.getAuthor() == null || dto.getAuthor().trim().isEmpty()) {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Author is required");
+        }
+
+        for (BookDTO existing : books) {
+            if (existing.getId() != null && existing.getId().equals(dto.getId())) {
+                throw new ResponseStatusException(HttpStatus.CONFLICT, "A book with this id already exists");
+            }
+        }
+
+        BookDTO newBook = new BookDTO(dto.getId(), dto.getTitle(), dto.getAuthor());
+        books.add(newBook);
+        return newBook;
+    }
+
+
+}
