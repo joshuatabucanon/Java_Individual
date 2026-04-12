@@ -1,0 +1,76 @@
+2026-03-30 03:27:44.930 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 16460 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 03:27:44.931 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-03-30 03:27:44.932 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 03:27:47.969 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.316 seconds (process running for 4.07)
+2026-03-30 03:30:29.979 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 32044 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 03:30:29.979 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-03-30 03:30:29.980 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 03:30:32.896 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.235 seconds (process running for 3.967)
+2026-03-30 03:39:08.475 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 10328 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 03:39:08.476 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-30 03:39:08.477 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 03:39:11.268 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.074 seconds (process running for 3.782)
+2026-03-30 03:48:16.098 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 25080 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 03:48:16.099 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-30 03:48:16.099 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 03:48:19.056 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.243 seconds (process running for 3.99)
+2026-03-30 03:55:21.436 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 30408 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 03:55:21.436 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-30 03:55:21.438 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 03:55:24.551 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.409 seconds (process running for 4.162)
+2026-03-30 04:10:05.690 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 19664 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 04:10:05.690 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-30 04:10:05.691 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 04:10:09.005 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.594 seconds (process running for 4.306)
+2026-03-30 04:19:21.622 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 31908 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 04:19:21.623 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-30 04:19:21.623 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 04:19:25.015 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.705 seconds (process running for 4.414)
+2026-03-30 04:28:32.362 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 31128 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 04:28:32.363 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-30 04:28:32.363 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 04:28:35.513 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.45 seconds (process running for 4.152)
+2026-03-30 04:35:45.524 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 25032 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 04:35:45.525 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-30 04:35:45.525 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 04:35:48.780 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.54 seconds (process running for 4.237)
+2026-03-30 04:39:42.716 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 25288 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 04:39:42.716 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-30 04:39:42.717 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 04:39:45.909 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.486 seconds (process running for 4.193)
+2026-03-30 08:17:07.347 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 5656 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 08:17:07.347 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-30 08:17:07.348 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 08:17:10.843 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.842 seconds (process running for 4.746)
+2026-03-30 08:27:43.099 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 13640 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 08:27:43.099 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-30 08:27:43.101 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 08:27:46.659 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.85 seconds (process running for 4.579)
+2026-03-30 08:35:11.736 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 24872 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 08:35:11.737 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-30 08:35:11.738 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 08:35:15.214 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.773 seconds (process running for 4.558)
+2026-03-30 09:10:20.388 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 26328 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 09:10:20.388 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-30 09:10:20.389 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 09:10:23.701 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.634 seconds (process running for 4.34)
+2026-03-30 11:12:47.410 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 32864 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 11:12:47.410 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-30 11:12:47.411 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 11:12:50.765 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.634 seconds (process running for 4.364)
+2026-03-30 11:18:31.304 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 21752 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 11:18:31.305 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-30 11:18:31.305 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 11:18:34.566 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.537 seconds (process running for 4.269)
+2026-03-30 11:22:27.806 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 33252 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 11:22:27.807 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-30 11:22:27.808 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 11:22:30.987 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.467 seconds (process running for 4.187)
+2026-03-30 11:44:34.643 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 1520 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 11:44:34.644 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-30 11:44:34.644 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 11:44:38.069 [INFO] m8jt.project1.MainApplication - Started MainApplication in 3.707 seconds (process running for 4.43)
+2026-03-30 11:54:25.109 [INFO] m8jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 17928 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M8JTProject1)
+2026-03-30 11:54:25.111 [DEBUG] m8jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-30 11:54:25.111 [INFO] m8jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-03-30 11:54:28.943 [INFO] m8jt.project1.MainApplication - Started MainApplication in 4.2 seconds (process running for 5.256)
