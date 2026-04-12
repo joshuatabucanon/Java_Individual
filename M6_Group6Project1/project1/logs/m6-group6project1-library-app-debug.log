@@ -1,0 +1,23 @@
+2026-03-09 08:29:16.839 [INFO] m6group6.project1.app.Main - 
+ M6_Group6_Project1 Library Application starting... 
+2026-03-09 08:29:20.111 [INFO] m6group6.project1.app.Main - Database connected successfully.
+2026-03-09 08:29:23.736 [INFO] m6group6.project1.app.LibraryApplication - User login initialized: name='JT', id=9
+2026-03-09 08:29:28.508 [TRACE] m6group6.project1.app.LibraryApplication - User selected option='1'
+2026-03-09 08:29:28.509 [TRACE] m6group6.project1.app.LibraryApplication - Processing option [1] Display All Books.
+2026-03-09 08:29:29.974 [TRACE] m6group6.project1.app.LibraryApplication - User selected option='2'
+2026-03-09 08:29:29.974 [TRACE] m6group6.project1.app.LibraryApplication - Processing option [2] Display Available Books.
+2026-03-09 08:29:31.366 [TRACE] m6group6.project1.app.LibraryApplication - User selected option='1'
+2026-03-09 08:29:31.367 [TRACE] m6group6.project1.app.LibraryApplication - Processing option [1] Display All Books.
+2026-03-09 08:29:32.455 [TRACE] m6group6.project1.app.LibraryApplication - User selected option='2'
+2026-03-09 08:29:32.456 [TRACE] m6group6.project1.app.LibraryApplication - Processing option [2] Display Available Books.
+2026-03-09 08:29:33.810 [TRACE] m6group6.project1.app.LibraryApplication - User selected option='3'
+2026-03-09 08:29:33.811 [TRACE] m6group6.project1.app.LibraryApplication - Processing option [3] Display All Borrowed Books.
+2026-03-09 08:29:37.949 [TRACE] m6group6.project1.app.LibraryApplication - User selected option='4'
+2026-03-09 08:29:37.950 [TRACE] m6group6.project1.app.LibraryApplication - Processing option [4] Borrow Book.
+2026-03-09 08:29:37.958 [TRACE] m6group6.project1.app.LibraryApplication - Prompted for Book ID to borrow.
+2026-03-09 08:29:40.518 [TRACE] m6group6.project1.app.LibraryApplication - User entered bookID=3 to borrow.
+2026-03-09 08:29:40.526 [WARN] m6group6.project1.service.LibraryServiceImpl - No book found with id=3 via getBookRefByID().
+2026-03-09 08:29:46.758 [TRACE] m6group6.project1.app.LibraryApplication - User selected option='0'
+2026-03-09 08:29:46.759 [TRACE] m6group6.project1.app.LibraryApplication - Processing option [0] Exit.
+2026-03-09 08:29:46.759 [TRACE] m6group6.project1.app.Main - Closing Entity Manager.
+2026-03-09 08:29:46.834 [INFO] m6group6.project1.app.Main - Main method finished execution.
