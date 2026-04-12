@@ -1,0 +1,28 @@
+<Library App Project Description>
+This is a library spring boot application that implements Spring Security on PostgreSQL database.
+
+Procedure for setting up PostgreSQL user and database to be used by groupmates working on the project:
+1)   Go to your 'psql-portable' folder, right click the 'bin' folder. From the drop down click Open in Terminal then enter below commands in CMD:
+
+1.1)   Run and start the PostgreSQL server/service.
+.\pg_ctl.exe -D ..\data\ -l ..\logfile start
+
+1.2)   Create the user and set password. Change parameters for username to your Windows username. For database substitute it with postgres.
+.\psql.exe -U <default/pre-existing username> -d <default/pre-existing database> -c "CREATE ROLE group6 LOGIN PASSWORD 'p05+gr3$';"
+
+Note:  The default/pre-existing username is your Windows username that is usually your name initials and surname. 
+To confirm your Windows username, enter this command in CMD: echo %username%
+The default existing database is postgres. 
+Below is a sample command with substituted values:
+.\psql.exe -U jdoe -d postgres -c "CREATE ROLE group6 LOGIN PASSWORD 'p05+gr3$';"
+
+1.3)   Create the database.
+.\psql.exe -U <default/pre-existing username> -d <default/pre-existing database> -c "CREATE DATABASE library_db OWNER group6;"
+
+2)   To confirm that password is working when running the program, update the file 'pg_hba.conf' in 'psql-portable\data' folder.
+Under 'IPv4 local connections:' (host  127.0.0.1/32) set authentication method from 'trust' to 'scram-sha-256'.
+
+3)   After creating the library_db, you can execute library_dbschema.sql to create the tables. 
+Command to execute the file is also in the comments in the file. 
+
+4) Admin and users are seeded during start of application. Their username and password are inside DataSeeder class.

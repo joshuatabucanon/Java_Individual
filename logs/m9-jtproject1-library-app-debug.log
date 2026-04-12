@@ -1,0 +1,4 @@
+2026-04-13 01:03:36.180 [INFO] m9jt.project1.MainApplication - Starting MainApplication using Java 17.0.14 with PID 20976 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M9JTProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\M9JTProject1)
+2026-04-13 01:03:36.181 [DEBUG] m9jt.project1.MainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-04-13 01:03:36.182 [INFO] m9jt.project1.MainApplication - The following 1 profile is active: "dev"
+2026-04-13 01:03:40.220 [INFO] m9jt.project1.MainApplication - Started MainApplication in 4.471 seconds (process running for 5.058)
