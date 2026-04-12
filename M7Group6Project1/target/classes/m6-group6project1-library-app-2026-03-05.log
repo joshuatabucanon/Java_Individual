@@ -1,0 +1,23 @@
+2026-03-05 08:14:29.429 [INFO] m6group6.project1.app.Main - 
+ M6_Group6_Project1 Library Application starting... 
+2026-03-05 08:14:29.633 [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-05 08:14:29.674 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 7.1.11.Final
+2026-03-05 08:14:30.152 [WARN] org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-03-05 08:14:30.767 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-05 08:14:30.786 [INFO] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/library_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: library_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2026-03-05 08:14:31.272 [INFO] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-05 08:14:32.063 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-05 08:14:32.102 [INFO] m6group6.project1.app.Main - Database connected successfully.
+2026-03-05 08:14:35.847 [INFO] m6group6.project1.app.LibraryApplication - User login initialized: name='JT', id=6
+2026-03-05 08:14:41.637 [INFO] m6group6.project1.app.Main - Main method finished execution.

@@ -1,0 +1,14 @@
+2026-03-05 08:14:29.429 [INFO] m6group6.project1.app.Main - 
+ M6_Group6_Project1 Library Application starting... 
+2026-03-05 08:14:32.102 [INFO] m6group6.project1.app.Main - Database connected successfully.
+2026-03-05 08:14:35.847 [INFO] m6group6.project1.app.LibraryApplication - User login initialized: name='JT', id=6
+2026-03-05 08:14:37.214 [TRACE] m6group6.project1.app.LibraryApplication - User selected option='1'
+2026-03-05 08:14:37.215 [TRACE] m6group6.project1.app.LibraryApplication - Processing option [1] Display All Books.
+2026-03-05 08:14:38.619 [TRACE] m6group6.project1.app.LibraryApplication - User selected option='2'
+2026-03-05 08:14:38.619 [TRACE] m6group6.project1.app.LibraryApplication - Processing option [2] Display Available Books.
+2026-03-05 08:14:39.374 [TRACE] m6group6.project1.app.LibraryApplication - User selected option='3'
+2026-03-05 08:14:39.374 [TRACE] m6group6.project1.app.LibraryApplication - Processing option [3] Display All Borrowed Books.
+2026-03-05 08:14:41.635 [TRACE] m6group6.project1.app.LibraryApplication - User selected option='0'
+2026-03-05 08:14:41.636 [TRACE] m6group6.project1.app.LibraryApplication - Processing option [0] Exit.
+2026-03-05 08:14:41.636 [TRACE] m6group6.project1.app.Main - Closing Entity Manager.
+2026-03-05 08:14:41.637 [INFO] m6group6.project1.app.Main - Main method finished execution.

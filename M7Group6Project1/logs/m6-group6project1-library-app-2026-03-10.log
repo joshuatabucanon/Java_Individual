@@ -1,0 +1,64 @@
+2026-03-10 09:43:08.993 [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-10 09:43:09.077 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 7.1.11.Final
+2026-03-10 09:43:09.536 [WARN] org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-03-10 09:43:10.148 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-10 09:43:10.171 [INFO] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/library_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: library_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2026-03-10 09:43:10.911 [INFO] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-10 09:43:11.879 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-10 09:43:11.971 [INFO] org.eclipse.jetty.util.log - Logging initialized @3818ms to org.eclipse.jetty.util.log.Slf4jLog
+2026-03-10 09:43:12.047 [INFO] spark.embeddedserver.jetty.EmbeddedJettyServer - == Spark has ignited ...
+2026-03-10 09:43:12.049 [INFO] spark.embeddedserver.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:8080
+2026-03-10 09:43:12.056 [INFO] org.eclipse.jetty.server.Server - jetty-9.4.48.v20220622; built: 2022-06-21T20:42:25.880Z; git: 6b67c5719d1f4371b33655ff2d047d24e171e49a; jvm 17.0.14+7-adhoc..jdk17u
+2026-03-10 09:43:12.084 [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2026-03-10 09:43:12.084 [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2026-03-10 09:43:12.085 [INFO] org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+2026-03-10 09:43:12.193 [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@5e23f44{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2026-03-10 09:43:12.194 [INFO] org.eclipse.jetty.server.Server - Started @4039ms
+2026-03-10 09:43:47.857 [INFO] spark.http.matching.MatcherFilter - The requested route [/favicon.ico] has not been mapped in Spark for Accept: [image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8]
+2026-03-10 11:24:00.243 [INFO] m7group6.project1.service.LibraryServiceImpl - Book added: id=1000, title='Ang Probinsyano: The Ampatuan Saga'
+2026-03-10 11:24:14.669 [INFO] m7group6.project1.service.LibraryServiceImpl - Book removed id=1000 title='Ang Probinsyano: The Ampatuan Saga'
+2026-03-10 11:24:39.480 [INFO] m7group6.project1.service.LibraryServiceImpl - Book added: id=1000, title='Ang Probinsyano: The Ampatuan Saga'
+2026-03-10 11:25:21.515 [INFO] m7group6.project1.service.LibraryServiceImpl - Book removed id=1000 title='Ang Probinsyano: The Ampatuan Saga'
+2026-03-10 11:29:44.266 [INFO] m7group6.project1.service.LibraryServiceImpl - Book added: id=1000, title='Ang Probinsyano: The Ampatuan Saga'
+2026-03-10 12:45:22.129 [INFO] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-10 12:45:22.188 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 7.1.11.Final
+2026-03-10 12:45:22.677 [WARN] org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2026-03-10 12:45:23.353 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-10 12:45:23.378 [INFO] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/library_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: library_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2026-03-10 12:45:24.145 [INFO] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-03-10 12:45:25.067 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-10 12:45:25.168 [INFO] org.eclipse.jetty.util.log - Logging initialized @3869ms to org.eclipse.jetty.util.log.Slf4jLog
+2026-03-10 12:45:25.234 [INFO] spark.embeddedserver.jetty.EmbeddedJettyServer - == Spark has ignited ...
+2026-03-10 12:45:25.234 [INFO] spark.embeddedserver.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:8080
+2026-03-10 12:45:25.238 [INFO] org.eclipse.jetty.server.Server - jetty-9.4.48.v20220622; built: 2022-06-21T20:42:25.880Z; git: 6b67c5719d1f4371b33655ff2d047d24e171e49a; jvm 17.0.14+7-adhoc..jdk17u
+2026-03-10 12:45:25.265 [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2026-03-10 12:45:25.265 [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2026-03-10 12:45:25.267 [INFO] org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2026-03-10 12:45:25.373 [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@4f9b6c6e{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2026-03-10 12:45:25.373 [INFO] org.eclipse.jetty.server.Server - Started @4075ms
+2026-03-10 12:45:35.637 [INFO] m7group6.project1.service.LibraryServiceImpl - Book updated id=1000
+2026-03-10 12:47:44.101 [INFO] m7group6.project1.service.LibraryServiceImpl - Loan created id=2 for bookId=1000 userId=1
+2026-03-10 12:51:50.352 [INFO] m7group6.project1.service.LibraryServiceImpl - Loan closed id=2
+2026-03-10 12:52:30.651 [INFO] m7group6.project1.service.LibraryServiceImpl - Book removed id=1000 title='Updated Title'
