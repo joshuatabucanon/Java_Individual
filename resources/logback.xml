@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- ========================================================= -->
+    <!-- Production rolling file: INFO and higher                  -->
+    <!-- ========================================================= -->
+    <appender name="FILE_PROD"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+        <file>logs/final-project1-bookshop-app.log</file>
+
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                logs/final-project1-bookshop-app-%d{yyyy-MM-dd}.log
+            </fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+
+        <!-- Only INFO, WARN, ERROR -->
+        <filter
+                class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+
+        <encoder>
+            <pattern>
+                %d{yyyy-MM-dd HH:mm:ss.SSS}
+                [%level]
+                %logger -
+                %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <!-- ========================================================= -->
+    <!-- Debug rolling file: TRACE and higher (everything)         -->
+    <!-- ========================================================= -->
+    <appender name="FILE_DEBUG"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+        <file>logs/final-project1-bookshop-app-debug.log</file>
+
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                logs/final-project1-bookshop-app-debug-%d{yyyy-MM-dd}.log
+            </fileNamePattern>
+            <maxHistory>14</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+
+        <!-- No filter: TRACE → ERROR -->
+        <encoder>
+            <pattern>
+                %d{yyyy-MM-dd HH:mm:ss.SSS}
+                [%level]
+                %logger -
+                %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <!-- ========================================================= -->
+    <!-- Application package logging                               -->
+    <!-- ========================================================= -->
+    <!-- Matches your code: com.bookshop.books.*                   -->
+    <logger name="com.bookshop"
+            level="TRACE"
+            additivity="true">
+        <appender-ref ref="FILE_DEBUG"/>
+    </logger>
+
+    <!-- ========================================================= -->
+    <!-- Root logger                                               -->
+    <!-- ========================================================= -->
+    <!-- Framework + third‑party logs                              -->
+    <root level="INFO">
+        <appender-ref ref="FILE_PROD"/>
+    </root>
+
+</configuration>

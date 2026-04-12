@@ -1,0 +1,236 @@
+2026-04-12 20:40:36.050 [INFO] com.bookshop.books.BookMainApplication - Starting BookMainApplication using Java 17.0.14 with PID 12508 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\FinalProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\FinalProject1)
+2026-04-12 20:40:36.051 [DEBUG] com.bookshop.books.BookMainApplication - Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-04-12 20:40:36.051 [INFO] com.bookshop.books.BookMainApplication - The following 1 profile is active: "dev"
+2026-04-12 20:40:39.386 [INFO] com.bookshop.books.BookMainApplication - Started BookMainApplication in 3.628 seconds (process running for 4.344)
+2026-04-12 21:04:00.360
+                [INFO]
+                com.bookshop.books.BookMainApplication -
+                Starting BookMainApplication using Java 17.0.14 with PID 11748 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\FinalProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\FinalProject1)
+2026-04-12 21:04:00.361
+                [DEBUG]
+                com.bookshop.books.BookMainApplication -
+                Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-04-12 21:04:00.362
+                [INFO]
+                com.bookshop.books.BookMainApplication -
+                The following 1 profile is active: "dev"
+2026-04-12 21:04:03.927
+                [INFO]
+                com.bookshop.books.BookMainApplication -
+                Started BookMainApplication in 3.875 seconds (process running for 4.627)
+2026-04-12 21:04:17.100
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching books filter=com.bookshop.books.dto.request.BookFilterRequestDto@4597931d, pageable=Page request [number: 0, size 20, sort: UNSORTED]
+2026-04-12 21:04:28.768
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching book id=eb875db3-b217-4328-ba14-71e93cc31146
+2026-04-12 21:04:32.135
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching books filter=com.bookshop.books.dto.request.BookFilterRequestDto@7be2a127, pageable=Page request [number: 0, size 20, sort: UNSORTED]
+2026-04-12 21:04:47.897
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Creating book with ISBN=979-1-03-100001-7
+2026-04-12 21:04:47.917
+                [INFO]
+                com.bookshop.books.service.BookServiceImpl -
+                Book created successfully id=0457b0b6-9732-4acf-a393-695f4dde037b
+2026-04-12 21:05:10.566
+                [WARN]
+                com.bookshop.books.exception.GlobalExceptionHandler -
+                Request body validation failed
+2026-04-12 21:05:15.232
+                [WARN]
+                com.bookshop.books.exception.GlobalExceptionHandler -
+                Request body validation failed
+2026-04-12 21:05:18.366
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Creating book with ISBN=978-1-03-100001-7
+2026-04-12 21:05:18.366
+                [WARN]
+                com.bookshop.books.service.BookServiceImpl -
+                Duplicate ISBN attempt: 978-1-03-100001-7
+2026-04-12 21:05:18.366
+                [WARN]
+                com.bookshop.books.exception.GlobalExceptionHandler -
+                Duplicate ISBN error: A book with ISBN already exists: 978-1-03-100001-7
+2026-04-12 21:05:42.513
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Attempting delete book id=49d7060e-4a92-4d72-abb8-95d97971a026
+2026-04-12 21:05:42.513
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching book id=49d7060e-4a92-4d72-abb8-95d97971a026
+2026-04-12 21:05:42.526
+                [INFO]
+                com.bookshop.books.service.BookServiceImpl -
+                Book deleted id=49d7060e-4a92-4d72-abb8-95d97971a026
+2026-04-12 21:05:57.859
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching books filter=com.bookshop.books.dto.request.BookFilterRequestDto@1460ac92, pageable=Page request [number: 0, size 20, sort: UNSORTED]
+2026-04-12 21:06:06.499
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Attempting delete book id=eb875db3-b217-4328-ba14-71e93cc31146
+2026-04-12 21:06:06.499
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching book id=eb875db3-b217-4328-ba14-71e93cc31146
+2026-04-12 21:06:06.499
+                [WARN]
+                com.bookshop.books.service.BookServiceImpl -
+                Delete denied (TOO_NEW) id=eb875db3-b217-4328-ba14-71e93cc31146, createdAt=2026-04-06
+2026-04-12 21:06:06.499
+                [WARN]
+                com.bookshop.books.exception.GlobalExceptionHandler -
+                Book deletion rule violated: Book can only be deleted after it is at least 7 days old.
+2026-04-12 21:06:13.447
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching books filter=com.bookshop.books.dto.request.BookFilterRequestDto@4bc7f076, pageable=Page request [number: 0, size 20, sort: UNSORTED]
+2026-04-12 21:06:25.914
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Attempting delete book id=e5d738f2-eb46-4797-8612-dc78f84de338
+2026-04-12 21:06:25.915
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching book id=e5d738f2-eb46-4797-8612-dc78f84de338
+2026-04-12 21:06:25.915
+                [WARN]
+                com.bookshop.books.service.BookServiceImpl -
+                Delete denied (TOO_OLD) id=e5d738f2-eb46-4797-8612-dc78f84de338, createdAt=2025-03-30
+2026-04-12 21:06:25.915
+                [WARN]
+                com.bookshop.books.exception.GlobalExceptionHandler -
+                Book deletion rule violated: Book older than 1 year cannot be deleted.
+2026-04-12 21:47:32.578
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Creating book with ISBN=9781234567890
+2026-04-12 21:47:32.585
+                [INFO]
+                com.bookshop.books.service.BookServiceImpl -
+                Book created successfully id=null
+2026-04-12 21:47:32.675
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Attempting delete book id=4e5db1ff-cee9-4efd-a279-e9c3e3117900
+2026-04-12 21:47:32.675
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching book id=4e5db1ff-cee9-4efd-a279-e9c3e3117900
+2026-04-12 21:47:32.677
+                [INFO]
+                com.bookshop.books.service.BookServiceImpl -
+                Book deleted id=4e5db1ff-cee9-4efd-a279-e9c3e3117900
+2026-04-12 21:47:32.682
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Attempting delete book id=80351cc9-fe40-47ec-9efa-859a08ad0834
+2026-04-12 21:47:32.682
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching book id=80351cc9-fe40-47ec-9efa-859a08ad0834
+2026-04-12 21:47:32.683
+                [INFO]
+                com.bookshop.books.service.BookServiceImpl -
+                Book deleted id=80351cc9-fe40-47ec-9efa-859a08ad0834
+2026-04-12 21:47:32.689
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching book id=8d0c9e95-5a68-4681-891b-5a9cca541cda
+2026-04-12 21:47:32.690
+                [ERROR]
+                com.bookshop.books.service.BookServiceImpl -
+                Book not found id=8d0c9e95-5a68-4681-891b-5a9cca541cda
+2026-04-12 21:47:32.702
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Updating book id=bae6dacd-555e-4e17-b370-8db0e5539311
+2026-04-12 21:47:32.702
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching book id=bae6dacd-555e-4e17-b370-8db0e5539311
+2026-04-12 21:47:32.704
+                [INFO]
+                com.bookshop.books.service.BookServiceImpl -
+                Book updated id=null
+2026-04-12 21:47:32.710
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Creating book with ISBN=9781234567890
+2026-04-12 21:47:32.710
+                [WARN]
+                com.bookshop.books.service.BookServiceImpl -
+                Duplicate ISBN attempt: 9781234567890
+2026-04-12 21:47:32.718
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Attempting delete book id=3acaad61-9053-48b9-a9ba-4f566bbfa150
+2026-04-12 21:47:32.718
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching book id=3acaad61-9053-48b9-a9ba-4f566bbfa150
+2026-04-12 21:47:32.718
+                [INFO]
+                com.bookshop.books.service.BookServiceImpl -
+                Book deleted id=3acaad61-9053-48b9-a9ba-4f566bbfa150
+2026-04-12 21:47:32.723
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching book id=719e10d5-943d-497d-aa59-3e42b7c7298e
+2026-04-12 21:47:32.737
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching books filter=com.bookshop.books.dto.request.BookFilterRequestDto@bfc14b9, pageable=Page request [number: 0, size 10, sort: UNSORTED]
+2026-04-12 21:47:32.762
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Attempting delete book id=ba5d0755-305f-4e27-ab47-ce2fc35d036a
+2026-04-12 21:47:32.762
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching book id=ba5d0755-305f-4e27-ab47-ce2fc35d036a
+2026-04-12 21:47:32.763
+                [WARN]
+                com.bookshop.books.service.BookServiceImpl -
+                Delete denied (TOO_NEW) id=ba5d0755-305f-4e27-ab47-ce2fc35d036a, createdAt=2026-04-06
+2026-04-12 21:47:32.767
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Attempting delete book id=0e7d21eb-0b61-48f5-be72-5aef154efa19
+2026-04-12 21:47:32.767
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching book id=0e7d21eb-0b61-48f5-be72-5aef154efa19
+2026-04-12 21:47:32.768
+                [WARN]
+                com.bookshop.books.service.BookServiceImpl -
+                Delete denied (TOO_OLD) id=0e7d21eb-0b61-48f5-be72-5aef154efa19, createdAt=2024-04-12
+2026-04-12 22:51:55.228
+                [INFO]
+                com.bookshop.books.BookMainApplication -
+                Starting BookMainApplication using Java 17.0.14 with PID 27344 (C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\FinalProject1\target\classes started by jrptabucanon in C:\Users\jrptabucanon\Documents\workspace-spring-tools-for-eclipse\FinalProject1)
+2026-04-12 22:51:55.230
+                [DEBUG]
+                com.bookshop.books.BookMainApplication -
+                Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-04-12 22:51:55.230
+                [INFO]
+                com.bookshop.books.BookMainApplication -
+                The following 1 profile is active: "dev"
+2026-04-12 22:51:58.778
+                [INFO]
+                com.bookshop.books.BookMainApplication -
+                Started BookMainApplication in 3.832 seconds (process running for 4.557)
+2026-04-12 22:52:02.036
+                [DEBUG]
+                com.bookshop.books.service.BookServiceImpl -
+                Fetching books filter=com.bookshop.books.dto.request.BookFilterRequestDto@6c18c30, pageable=Page request [number: 0, size 20, sort: UNSORTED]
